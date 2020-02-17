@@ -1,2 +1,2 @@
 This is my test file
-test P1
+test T2
