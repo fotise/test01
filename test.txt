@@ -1,2 +1,1 @@
-This is my test file
-test T2
+release 1.0.0 
