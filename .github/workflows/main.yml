@@ -16,7 +16,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: Approve Pull Request
-      uses: fotise/close-pull-request-action
+      uses: fotise/close-pull-request-action@master
       with:
         github-token: token
         number: 1
