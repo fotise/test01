@@ -1,9 +1,9 @@
-name: CI
+name: CLA
 
 on: [pull_request]
 
 jobs:
-  build:
+  checkCLA:
 
     runs-on: ubuntu-latest
 
