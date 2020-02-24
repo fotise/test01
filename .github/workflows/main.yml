@@ -19,5 +19,5 @@ jobs:
       uses: fotise/close-pull-request-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        number: 1
+        message: Pull Request is not allowed on this repository
     
