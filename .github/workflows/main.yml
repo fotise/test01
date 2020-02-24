@@ -16,7 +16,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: Autoclose Pull Request
-      uses: fotise/close-pull-request-action@master
+      uses: fotise/test-typescript-container-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         message: Pull Request is not allowed on this repository
