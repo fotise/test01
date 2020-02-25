@@ -17,5 +17,6 @@ jobs:
     - name: Autoclose Pull Request
       uses: fotise/pull-request-autoclose-action@releases/v0.0.1
       with:
-        milliseconds: 1000
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        message: Pull Request is not allowed on this repository
     
