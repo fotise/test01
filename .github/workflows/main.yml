@@ -9,20 +9,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-#    - name: Autoclose Pull Request
-#      uses: fotise/test-typescript-container-action@master
-#      with:
-#        github-token: ${{ secrets.GITHUB_TOKEN }}
-#        message: Pull Request is not allowed on this repository
-#    - name: Autoclose Pull Request
-#      uses: fotise/pull-request-autoclose-action@releases/v0.0.1
-#      with:
-#        github-token: ${{ secrets.GITHUB_TOKEN }}
-#        message: Pull Request is not allowed on this repository
-
-    - uses: superbrothers/close-pull-request@v2
+    - name: Autoclose Pull Request
+      uses: fotise/test-typescript-container-action@master
       with:
-        comment: "We do not accept PRs. If you have any questions, please feel free to contact us."
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        message: Pull Request is not allowed on this repository
+    - name: Autoclose Pull Request
+      uses: fotise/pull-request-autoclose-action@releases/v0.0.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        message: Pull Request is not allowed on this repository
+
+#    - uses: superbrothers/close-pull-request@v2
+#      with:
+#        comment: "We do not accept PRs. If you have any questions, please feel free to contact us."
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
