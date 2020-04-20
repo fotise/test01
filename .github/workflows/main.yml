@@ -20,11 +20,11 @@ jobs:
 #        github-token: ${{ secrets.GITHUB_TOKEN }}
 #        message: Pull Request is not allowed on this repository (action pull-request-autoclose action)
 
-    - name: Autoclose Pull Request
-      uses: fotise/close-pull-request-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        message: Pull Request is not allowed on this repository (action close-pull-request action)
+#    - name: Autoclose Pull Request
+#      uses: fotise/close-pull-request-action@master
+#      with:
+#        github-token: ${{ secrets.GITHUB_TOKEN }}
+#        message: Pull Request is not allowed on this repository (action close-pull-request action)
 
 #    - uses: superbrothers/close-pull-request@v2
 #      with:
